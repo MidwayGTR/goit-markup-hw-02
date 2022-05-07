@@ -47,12 +47,6 @@ Header section
     color: var(--acent-cl);
 }
 
-/* !!!!!!!!!!!!!!!!!! */
-.logo:hover,
-.logo:focus {
-    color: var(--second-cl);
-}
-
 .logo-accent {
     color: #212121;
 }
