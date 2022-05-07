@@ -1,0 +1,229 @@
+/*цвет фона #FFFFFF */
+/*цвет фона #F5F4FA */
+/*цвет фона #2F303A */
+
+/* акцент #2196F3 */
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет вторичного текста #FFFFFF */
+
+
+:root {
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* text colors */
+    --acent-cl: #2196F3;
+    --main-cl: #757575;
+    --second-cl: #212121;
+    --bg-cl: #FFFFFF;
+
+    /* background colors */
+    --acent-bg-cl: #2F303A;
+    --bacground-cl: #2196F3;
+    --main-bg-cl: #FFFFFF;
+    --second-bg-cl: #F5F4FA;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+    background-color: var(--main-bg-cl);
+}
+
+.list {
+    list-style: none;
+}
+
+link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*-------------------- 
+Header section 
+----------------------*/
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--acent-cl);
+}
+
+/* !!!!!!!!!!!!!!!!!! */
+.logo:hover,
+.logo:focus {
+    color: red;
+}
+
+.logo-accent {
+    color: #212121;
+}
+
+/* navigation */
+.navigation-link {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--second-cl);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--acent-cl);
+}
+
+.contact-tel,
+.contact-mail {
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-cl);
+}
+
+.contact-tel:hover,
+.contact-mail:hover {
+    color: var(--acent-cl);
+}
+
+.contact-tel:focus,
+.contact-mail:focus {
+    color: var(--acent-cl);
+}
+
+/*-------------------- 
+Main section 
+----------------------*/
+
+/* Hero section */
+.hero {
+    background-color: var(--acent-bg-cl);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bg-cl);
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--bacground-cl);
+    color: var(--bg-cl);
+}
+
+/* Specific section */
+
+.specific-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-cl);
+}
+
+.specific-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+}
+
+/* work section */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-cl);
+}
+
+/* Team section */
+.team-section {
+    background-color: var(--second-bg-cl);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-cl);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-cl);
+}
+
+/*-------------------- 
+footer section 
+----------------------*/
+
+.footer {
+    background-color: var(--acent-bg-cl);
+}
+
+.footer-logo {
+    color: var(--bg-cl);
+}
+
+
+.list-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--bg-cl);
+}
+
+
+.footer-map {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--bg-cl);
+}
+
+.footer-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
