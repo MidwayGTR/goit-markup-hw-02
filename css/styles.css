@@ -7,6 +7,7 @@
     --main-cl: #757575;
     --second-cl: #212121;
     --bg-cl: #FFFFFF;
+    --button-color-hover: #188CE8;
 
     /* background colors */
     --acent-bg-cl: #2F303A;
@@ -32,6 +33,8 @@ body {
 .link {
     text-decoration: none;
     color: currentColor;
+    font-style: normal;
+
 }
 
 /*-------------------- 
@@ -42,7 +45,7 @@ Header section
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--acent-cl);
 }
@@ -53,8 +56,9 @@ Header section
 
 /* navigation */
 .navigation-link {
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-cl);
 }
@@ -64,9 +68,15 @@ Header section
     color: var(--acent-cl);
 }
 
+.current {
+    color: var(--acent-cl);
+}
+
 .contact-tel,
 .contact-mail {
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-cl);
 }
@@ -113,6 +123,11 @@ Main section
     border: none;
     background-color: var(--bacground-cl);
     color: var(--bg-cl);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--button-color-hover);
 }
 
 /* Specific section */
@@ -172,7 +187,7 @@ Main section
 }
 
 /*-------------------- 
-footer section 
+footer
 ----------------------*/
 
 .footer-section {
@@ -182,7 +197,6 @@ footer section
 .footer-logo {
     color: var(--bg-cl);
 }
-
 
 .footer-list .link {
     font-size: 14px;
@@ -205,7 +219,7 @@ footer section
 }
 
 /*-------------------- 
-Портфолио
+Portfolio
 ----------------------*/
 
 
@@ -216,16 +230,14 @@ footer section
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-
     cursor: pointer;
     border: none;
-
     color: var(--second-cl);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #2196F3;
+    background-color: var(--acent-cl);
 }
 
 .hero-subtitle {
@@ -233,15 +245,12 @@ footer section
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
     color: var(--second-cl);
 }
 
 .hero-type {
     font-size: 16px;
     line-height: 1.88;
-
     letter-spacing: 0.03em;
-
     color: var(--main-cl);
 }
