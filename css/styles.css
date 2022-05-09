@@ -35,13 +35,9 @@ body {
     text-decoration: none;
     color: currentColor;
     font-style: normal;
-
 }
 
-/*-------------------- 
-Header section 
-----------------------*/
-
+/* ----Header section---- */
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -92,10 +88,7 @@ Header section
     color: var(--acent-cl);
 }
 
-/*-------------------- 
-Main section 
-----------------------*/
-
+/* ----Main section---- */
 /* Hero section */
 .hero {
     background-color: var(--acent-bg-cl);
@@ -190,10 +183,7 @@ Main section
     color: var(--main-cl);
 }
 
-/*-------------------- 
-footer
-----------------------*/
-
+/* ----footer---- */
 .footer-section {
     background-color: var(--acent-bg-cl);
 }
@@ -222,11 +212,7 @@ footer
     color: var(--acent-cl);
 }
 
-/*-------------------- 
-Portfolio
-----------------------*/
-
-
+/* ----Portfolio---- */
 .hero-btn {
     font-family: inherit;
     font-weight: 500;
