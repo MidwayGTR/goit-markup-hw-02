@@ -52,7 +52,7 @@ Header section
 }
 
 .logo-accent {
-    color: #212121;
+    color: var(--second-cl);
 }
 
 /* navigation */
@@ -214,7 +214,7 @@ footer
 
 .foot-mail,
 .foot-tel {
-    color: var(--footer-color)
+    color: var(--footer-color);
 }
 
 .footer-list .link:hover,
